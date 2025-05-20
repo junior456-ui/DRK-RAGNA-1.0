@@ -20,7 +20,7 @@ global.website = process.env.GURL || "https://whatsapp.com/channel/0029Vakp0UnIC
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://i.imgur.com/vRR63CN.jpeg,https://i.imgur.com/ovCfp9J.jpeg,https://i.imgur.com/edzo5dj.jpeg";
 global.devs = "https://wa.me/50931461936 , https://wa.me/50931461936";
 global.sudo = process.env.SUDO || "50931461936";
-global.owner = process.env.OWNER_NUMBER || "PUT YOUR OWNER NUMBER";
+global.owner = process.env.OWNER_NUMBER || "237653364151";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "true";
@@ -43,17 +43,17 @@ global.scan = "https://drk-tech-2.onrender.com/";
 
 global.SESSION_ID =
   process.env.SESSION_ID ||
-  "mettre votre session ici"
+  "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiME9IcmFRMG5iYUVQcldDQ1g5YWtjb3B3bHlBdVBxTkFjMHR6SkxkNVMxUT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiV0xkbzF6NHJnSU91WUdBVnVGQk9sM3AxRDFjT3VSdjYzanR5WWphWG5nZz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiI4R25BcEZxQ1RVMTh6dXZtT1grL0JqRWg5NGdRUlBhc0FqVHgybkVmUTBvPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJUZFJxeGhJeHp5YklIL1laaHN4cjZkZENyNGFkdTFKSHpjMSthOE9mNjMwPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IktBMGNxUTl1S2ZmWTFLQWNMZThtN2V5NmErbzN1RXp2Y3EwZ3dDQkx5MTA9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkNYS1hKNis5SFVTZjk5a0xGeEI1bTk1NWpiTjVNbG40Ym5HNFBLSFpuRm89In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiMEJDNHJTdzdsQkhuMHhUYjBuclZ3eUZvTTIvL0JlMjRFdVN2L3NiRmUxVT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoidjcyeEppMnRiUjNNblhjb3hreDM5MlloaFh0a1AzK1BocVpoYitmNlBGRT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ilh2aWxCamJuRkZhVkRyWWVhaENjUXBCN25tMkNkMlNXa1pQOHQrd2ZPNDFhOHBaMDZvbXZCNUVzVmd2OC95K1p0NDNmN1lHT00wZFAwWEFRaFZCcWhRPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MjQ4LCJhZHZTZWNyZXRLZXkiOiJBaHdURHVzdDhTZ25Hak40dk5LdDhQaVgrT3VOc1l2Sk55M2pJOC9SQUNvPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W3sia2V5Ijp7InJlbW90ZUppZCI6IjIzNzY1MzM2NDE1MUBzLndoYXRzYXBwLm5ldCIsImZyb21NZSI6dHJ1ZSwiaWQiOiIzQTc4MEFEQjJDRTlFRDUwRjE0NyJ9LCJtZXNzYWdlVGltZXN0YW1wIjoxNzQ3NzAyNTkyfSx7ImtleSI6eyJyZW1vdGVKaWQiOiIyMzc2NTMzNjQxNTFAcy53aGF0c2FwcC5uZXQiLCJmcm9tTWUiOnRydWUsImlkIjoiM0E4NzU1QUVCMzUwN0Q1OUJCRTcifSwibWVzc2FnZVRpbWVzdGFtcCI6MTc0NzcwMjU5NH1dLCJuZXh0UHJlS2V5SWQiOjMxLCJmaXJzdFVudXBsb2FkZWRQcmVLZXlJZCI6MzEsImFjY291bnRTeW5jQ291bnRlciI6MSwiYWNjb3VudFNldHRpbmdzIjp7InVuYXJjaGl2ZUNoYXRzIjpmYWxzZX0sInJlZ2lzdGVyZWQiOmZhbHNlLCJhY2NvdW50Ijp7ImRldGFpbHMiOiJDS0Ntc1hFUXNLYXZ3UVlZQVNBQUtBQT0iLCJhY2NvdW50U2lnbmF0dXJlS2V5IjoiL1p2U1VaY2V3V0I3Q0xGMWltYlZmLzFuYVArSmR4dGk1MWlzZUM5bHNuUT0iLCJhY2NvdW50U2lnbmF0dXJlIjoiZXMySkIrYnN0NkoxNkM1OFRZc3VzTDJnOVFzazhjLzJYa2FTbDQxZDRvWU9FUzkzU3pPbGdndHdNSTNtZ1VVUWFtMndIWG1LOXBSUzQ0U3FSbmI1aEE9PSIsImRldmljZVNpZ25hdHVyZSI6Ijl5MFVrb2tseTZYQWRvRHpBNkhFMVNrRU9LTzhEREJLWXF3VFhvUWtwcjBSbWZsY2pJWHRBdmVUcEFwai8wbVh5aGFMVG1sazBnUVNSSHJQRjIvS2p3PT0ifSwibWUiOnsiaWQiOiIyMzc2NTMzNjQxNTE6M0BzLndoYXRzYXBwLm5ldCIsIm5hbWUiOiJUcsOpc29yIiwibGlkIjoiMTgxMDcyMTEzNDM0NjYwOjNAbGlkIn0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjIzNzY1MzM2NDE1MTozQHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQmYyYjBsR1hIc0ZnZXdpeGRZcG0xWC85WjJqL2lYY2JZdWRZckhndlpiSjAifX1dLCJwbGF0Zm9ybSI6InNtYmkiLCJyb3V0aW5nSW5mbyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkNBVUlBZz09In0sImxhc3RBY2NvdW50U3luY1RpbWVzdGFtcCI6MTc0NzcwMjU5MCwibGFzdFByb3BIYXNoIjoibm0zQmIiLCJteUFwcFN0YXRlS2V5SWQiOiJBQUFBQUcxRCJ9"
 module.exports = {
   menu: process.env.MENU || "1",
-  HANDLERS: process.env.PREFIX || ".",
+  HANDLERS: process.env.PREFIX || "?",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
   caption: process.env.CAPTION || "`BRAND PRODUCT OF 𝑫𝑹𝑲-𝑹𝑨𝑮𝑵𝑨`",
-  author: process.env.PACK_AUTHER || " 𝙎-𝙏𝞢𝞜",
+  author: process.env.PACK_AUTHER || " ~❃𝑺𝑴𝑨𝑹𝑻✦_𝐁𝐀𝐋𝐌𝐀𝐈𝐍_𝐓𝐂❃",
   packname: process.env.PACK_NAME || "𝑫𝑹𝑲-𝑹𝑨𝑮𝑵𝑨",
-  botname: process.env.BOT_NAME || "ST┘𝑫𝑹𝑲-𝑹𝑨𝑮𝑵𝑨𖤐",
-  ownername: process.env.OWNER_NAME || "🌹⃟⃢👑 ĐÆ𝚪𝐊༒𝙎-𝙏𝞢𝞜🌹⃟⃢👑",
+  botname: process.env.BOT_NAME || "~❃𝑺𝑴𝑨𝑹𝑻✦_𝐁𝐀𝐋𝐌𝐀𝐈𝐍_𝐓𝐂❃",
+  ownername: process.env.OWNER_NAME || "~❃𝑺𝑴𝑨𝑹𝑻✦_𝐁𝐀𝐋𝐌𝐀𝐈𝐍_𝐓𝐂❃",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "tCxobE1FqJgfbDZgsYQNHBFB",
